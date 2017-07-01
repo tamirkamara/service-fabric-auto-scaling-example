@@ -1,0 +1,1 @@
+c:\dev\service-fabric-simple1\service-fabric-simple1\obj\x64\Debug\service_fabric_simple1.sfprojResolveAssemblyReference.cache

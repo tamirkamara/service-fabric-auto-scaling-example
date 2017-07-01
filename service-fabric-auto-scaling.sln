@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "service_fabric_auto_scaling", "service-fabric-simple1\service_fabric_auto_scaling.sfproj", "{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stateless1", "Stateless1\Stateless1.csproj", "{990115DB-1BE7-4027-8A0B-79024695621F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorService", "MonitorService\MonitorService.csproj", "{37A3B128-90CE-48E7-8BD4-6B010203CB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Debug|x64.ActiveCfg = Debug|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Debug|x64.Build.0 = Debug|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Debug|x64.Deploy.0 = Debug|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Release|Any CPU.ActiveCfg = Release|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Release|x64.ActiveCfg = Release|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Release|x64.Build.0 = Release|x64
+		{FF7C12C2-F682-42A1-8A6C-9DC3F292CCA8}.Release|x64.Deploy.0 = Release|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Debug|x64.ActiveCfg = Debug|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Debug|x64.Build.0 = Debug|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Release|Any CPU.ActiveCfg = Release|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Release|x64.ActiveCfg = Release|x64
+		{990115DB-1BE7-4027-8A0B-79024695621F}.Release|x64.Build.0 = Release|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Debug|x64.ActiveCfg = Debug|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Debug|x64.Build.0 = Debug|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Release|Any CPU.ActiveCfg = Release|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Release|x64.ActiveCfg = Release|x64
+		{37A3B128-90CE-48E7-8BD4-6B010203CB4D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
